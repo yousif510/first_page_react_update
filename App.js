@@ -11,9 +11,8 @@ function App() {
       <div style={{display:"flex",
         justifyContent:"center",
         background:"#121212"}}>
-    {/* POSTS &SIDE CONTAINER*/}
+    
     <div style={{display:"flex",width:"60%" }}>
-{/* POSTS CONTAINER*/}
 <div style={{width:"70%"}}>
         <Post> 
         <div>
@@ -36,16 +35,12 @@ function App() {
           </div>
         </Post>
         </div>
-      {/*== POSTS CONTAINER==*/}
 
-      {/*SIDE MENUE CONTAINER */}
       <div style={{width:"30%"}}>
         <SideMenue/>
       </div>
-            {/*==SIDE MENUE CONTAINER== */}
 
     </div>
-        {/*== POSTS &SIDE CONTAINER==*/}
 
     
     </div></div>
